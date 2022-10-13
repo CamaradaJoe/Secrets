@@ -7,7 +7,7 @@
 // install dotenv and require it on the first line
 // make .env file and populate it
 // connect .env to plugin passing secrets
-// make .gitignore file and pass the .env into it (best to copy and paste .gitignore template on github rep)
+// make .gitignore file and pass the .env into it (should be done before 1st push to github) (best to copy and paste .gitignore template on github rep)
 
 require("dotenv").config();
 const express = require("express");
